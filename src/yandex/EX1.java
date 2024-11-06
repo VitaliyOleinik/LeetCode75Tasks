@@ -6,7 +6,7 @@ public class EX1 {
         boolean up = true;
         boolean down = true;
         for (int i = 0; i < data.length - 1; i++) {
-            if (data[i] < data[i + 1] ) {
+            if (data[i] < data[i + 1]) {
                 up = false;
             }
             if (data[i] > data[i + 1]) {

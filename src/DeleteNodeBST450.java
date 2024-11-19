@@ -56,5 +56,5 @@ public class DeleteNodeBST450 {
         root.left.right = new TreeNode(0);
         root.right.right = new TreeNode(10);
         System.out.println(solution.deleteNode(root, 2).val);
-    }   
+    }
 }
